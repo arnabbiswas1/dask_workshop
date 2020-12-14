@@ -1,0 +1,14 @@
+name: dask_workshop_two
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - nodejs
+  - jupyterlab>=2.0.0
+  - dask=2020.12.0
+  - dask-labextension>=3.0.0
+  - dask-ml>=1.7.0
+  - python-graphviz
+  - pip
+  - pip:
+      - dask-xgboost==0.1.11
