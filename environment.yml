@@ -1,14 +1,24 @@
-name: dask_workshop_three
+name: dask_workshop
 channels:
   - conda-forge
 dependencies:
   - python=3.8
-  - nodejs
-  - jupyterlab>=2.0.0
+  - bokeh=2.0  # Pinned until distributed 2.19 release due to breaking change
   - dask=2.30.0
-  - dask-labextension>=3.0.0
-  - dask-ml>=1.7.0
-  - python-graphviz
+  - dask-ml
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - nodejs
+  - tornado
+  - numba
+  - numpy
   - pip
+  - pandas
+  - python-graphviz
+  - scikit-learn
+  - nbserverproxy
+  - requests
   - pip:
-      - dask-xgboost==0.1.11
+    - dask_labextension
+    - dask-xgboost==0.1.11
