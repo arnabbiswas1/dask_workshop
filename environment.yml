@@ -6,7 +6,7 @@ dependencies:
   - bokeh=2.0  # Pinned until distributed 2.19 release due to breaking change
   - dask=2.30.0
   - dask-ml
-  - jupyterlab
+  - jupyterlab=2.2.6
   - ipykernel
   - ipywidgets
   - nodejs
