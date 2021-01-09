@@ -8,7 +8,8 @@ As a Data Scientist, we encounter few major challenges while dealing with large 
 
 In this presentation, I discuss how these challenges can be addressed using open source, parallel computation library **Dask**.
 
-Accompanying presentation can be found at https://speakerdeck.com/arnabbiswas1/scale-up-your-data-science-work-flow-using-dask
+Accompanying presentation: https://speakerdeck.com/arnabbiswas1/scale-up-your-data-science-work-flow-using-dask
+Slides of the session: [here](https://youtu.be/6w8OyXRFRXg?start=738&end=3670&autoplay=1)
 
 ### How to setup the Python Environment?
 
